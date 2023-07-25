@@ -7,7 +7,6 @@ import org.qiwi.exception.CurrencyRateNotFoundException;
 import org.qiwi.service.CurrencyRatesService;
 import org.qiwi.service.CurrencyRatesServiceImpl;
 
-import java.math.BigDecimal;
 import java.time.LocalDate;
 
 public class CurrencyRatesServiceTest {
