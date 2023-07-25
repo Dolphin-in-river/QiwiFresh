@@ -5,8 +5,6 @@ import org.qiwi.entity.CommandLineArguments;
 import org.qiwi.entity.CurrencyRate;
 import org.qiwi.exception.CurrencyRateNotFoundException;
 
-import java.time.LocalDate;
-
 @NoArgsConstructor
 public class CurrencyRatesServiceImpl implements CurrencyRatesService {
     public CurrencyRate getRate(CommandLineArguments arguments) throws CurrencyRateNotFoundException {
